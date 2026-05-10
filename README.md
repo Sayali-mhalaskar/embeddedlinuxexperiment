@@ -1,15 +1,13 @@
 # embeddedlinuxexperiment
 
-Step 1 — Update Linux
+Step 1
 sudo apt update
-Step 2 — Install ARM Compiler and QEMU
+Step 2 
 sudo apt install gcc-arm-linux-gnueabi qemu-user file build-essential -y
 
-Wait until installation completes.
+
 
 Step 3 — Verify Installation
-
-Run:
 
 arm-linux-gnueabi-gcc --version
 
